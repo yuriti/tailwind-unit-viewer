@@ -1,3 +1,7 @@
 'use strict';
 
-module.exports = {};
+const isDev = process.env.NODE_ENV === 'development';
+
+module.exports = {
+    publicPath: isDev ? '/' : '/tailwind-unit-viewer/'
+};
