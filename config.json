@@ -1,0 +1,94 @@
+{
+    "fontSize": [
+        {
+            "prefix": "text",
+            "style": "font-size: ::value::"
+        }
+    ],
+    "width": [
+        {
+            "prefix": "w",
+            "style": "width: ::value::"
+        }
+    ],
+    "height": [
+        {
+            "prefix": "h",
+            "style": "height: ::value::"
+        }
+    ],
+    "margin": [
+        {
+            "prefix": "m",
+            "style": "margin: ::value::"
+        },
+        {
+            "prefix": "mr",
+            "style": "margin-right: ::value::"
+        },
+        {
+            "prefix": "ml",
+            "style": "margin-left: ::value::"
+        },
+        {
+            "prefix": "mt",
+            "style": "margin-top: ::value::"
+        },
+        {
+            "prefix": "mb",
+            "style": "margin-bottom: ::value::"
+        }
+    ],
+    "padding": [
+        {
+            "prefix": "p",
+            "style": "padding: ::value::"
+        },
+        {
+            "prefix": "px",
+            "style": "padding-left: ::value:: padding-right: ::value::"
+        },
+        {
+            "prefix": "py",
+            "style": "padding-top: ::value:: padding-bottom: ::value::"
+        },
+        {
+            "prefix": "pr",
+            "style": "padding-right: ::value::"
+        },
+        {
+            "prefix": "pl",
+            "style": "padding-left: ::value::"
+        },
+        {
+            "prefix": "pt",
+            "style": "padding-top: ::value::"
+        },
+        {
+            "prefix": "pb",
+            "style": "padding-bottom: ::value::"
+        }
+    ],
+    "borderRadius": [
+        {
+            "prefix": "rounded",
+            "style": "border-radius: ::value::"
+        }
+    ],
+    "translate": [
+        {
+            "prefix": "translate-x",
+            "style": "transform: translateX(::value::)"
+        },
+        {
+            "prefix": "translate-y",
+            "style": "transform: translateY(::value::)"
+        }
+    ],
+    "lineHeight": [
+        {
+            "prefix": "leading",
+            "style": "line-height: ::value::"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --popper-theme-background-color: none;
+    --popper-theme-background-color-hover: none;
+    --popper-theme-text-color: #333;
+    --popper-theme-border-width: 0;
+    --popper-theme-border-style: solid;
+    --popper-theme-border-radius: 0;
+    --popper-theme-padding: 0;
+    --popper-theme-box-shadow: none;
+    --star-hover-color: #E0E0E0;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+body {
+    color: #333333;
+    @apply tw-font-montserrat tw-font-normal;
+}
+
+input[type="number"] {
+    appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.tw-scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.tw-scroll-hidden::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+.tw-container {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
